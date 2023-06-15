@@ -10,3 +10,35 @@
     text-align: center;
     font-size: 48px;
 }
+
+img {
+    height: auto;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: groove;
+}
+
+.heading, a {
+    color: rgb(180, 10, 40);
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+ul, ol {
+    border: 1px solid #ccc!important;
+    padding: 0.25em 24px;
+    border-radius: 12px;
+}
+
+ul {
+    list-style: none;
+}
