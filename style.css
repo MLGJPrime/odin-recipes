@@ -1,29 +1,42 @@
+html {
+    background-color: rgb(80, 10, 20);    
+}
+
 body {
+    background-color: rgb(240, 180, 180);
+    width: 800px;
+    padding: 3em;
+    border-radius: 12px;
+    margin: 3em auto;
+}
+
+* {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
 }
 
 .title {
-    display: block;
-    width: 9em;
-    background-color: rgb(240, 180, 180)!important;
-    color: darkred;
+    width: 474px;
+    background-color: rgb(80, 10, 20)!important;
+    color: rgb(255, 220, 220);
     text-transform: uppercase;
     font-weight: 800;
     text-align: center;
     font-size: 48px;
-    padding: 0.5em;
-    border: 5px solid darkred!important;
-    margin: 0.5em auto;
+    padding: 0;
+    border-radius: 12px;
+    margin: 0 auto 24px;
 }
 
 ul {
+    background-color: rgb(255, 220, 220);
     list-style: none;
-    width: 470px;
+    width: 472px;
     padding: 0;
+    border: 1px solid #333!important;
+    border-radius: 12px;
     margin: 0 auto;
     overflow: hidden;
-    background-color: rgb(240, 180, 180);
 }
 
 li {
@@ -32,7 +45,7 @@ li {
 
 li a {
     display: block;
-    color: darkred;
+    color: rgb(80, 10, 20);
     font-size: 24px;
     text-align: center;
     text-decoration: none;
@@ -40,6 +53,6 @@ li a {
 }
 
 li a:hover {
-    background-color: darkred;
-    color: rgb(240, 180, 180);
+    background-color: rgb(80, 10, 20);
+    color: rgb(255, 220, 220);
 }
