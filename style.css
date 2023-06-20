@@ -16,7 +16,7 @@ body {
 }
 
 .title {
-    width: 474px;
+    width: 704px;
     background-color: rgb(80, 10, 20)!important;
     color: rgb(255, 220, 220);
     text-transform: uppercase;
@@ -31,7 +31,7 @@ body {
 ul {
     background-color: rgb(255, 220, 220);
     list-style: none;
-    width: 472px;
+    width: 704px;
     padding: 0;
     border: 1px solid #333!important;
     border-radius: 12px;
@@ -44,6 +44,7 @@ li {
 }
 
 li a {
+    width: 234px;
     display: block;
     color: rgb(80, 10, 20);
     font-size: 24px;
