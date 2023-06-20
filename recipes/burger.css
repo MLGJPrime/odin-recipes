@@ -3,7 +3,7 @@
 }
 
 .title {
-    background-color: rgb(80, 10, 20);
+    background-color: rgb(80, 10, 20)!important;
     color: white;
     text-transform: uppercase;
     font-weight: 800;
@@ -20,7 +20,7 @@ img {
 }
 
 .heading, a {
-    color: rgb(180, 10, 40);
+    color: rgb(180, 10, 40)!important;
     font-weight: 800;
 }
 

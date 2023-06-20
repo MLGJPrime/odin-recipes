@@ -1,21 +1,45 @@
-* {
+body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
 }
 
 .title {
-    background-color: rgb(80, 10, 20);
-    color: white;
+    display: block;
+    width: 9em;
+    background-color: rgb(240, 180, 180)!important;
+    color: darkred;
     text-transform: uppercase;
     font-weight: 800;
     text-align: center;
     font-size: 48px;
-}
-
-.recipe {
-    color: rgb(180, 10, 40);
-    font-size: 24px;
+    padding: 0.5em;
+    border: 5px solid darkred!important;
+    margin: 0.5em auto;
 }
 
 ul {
     list-style: none;
+    width: 470px;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: rgb(240, 180, 180);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: darkred;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px;
+}
+
+li a:hover {
+    background-color: darkred;
+    color: rgb(240, 180, 180);
 }
